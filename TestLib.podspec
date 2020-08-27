@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'Code/**/*'
 
-  # s.dependency 'Snapkit'
+  s.dependency 'FDFullscreenPopGesture'
 
 end
