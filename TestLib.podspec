@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestLib'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'name'
   s.description      = 'name--'
   s.homepage         = 'https://github.com/'
