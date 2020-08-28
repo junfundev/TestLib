@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestLib'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'name'
   s.description      = 'name--'
   s.homepage         = 'https://github.com/'
@@ -16,9 +16,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'Code/**/*'
 
-  s.dependency 'FDFullscreenPopGesture'
-    s.dependency 'YTKNetwork'
-    s.dependency 'Alamofire'
-    s.dependency 'Moya'
+  s.dependency 'FDFullscreenPopGesture'    
+  s.dependency 'YTKNetwork'
+  s.dependency 'Moya'
 
 end
