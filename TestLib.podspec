@@ -15,7 +15,9 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.source_files  = 'Code/**/*'
-    
+
+  s.dependency 'FDFullscreenPopGesture'
+  s.dependency 'Alamofire'
   s.dependency 'YTKNetwork'
   s.dependency 'Moya'
 
